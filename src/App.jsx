@@ -121,10 +121,10 @@ const App = ({ isServerInfo }) => {
               <Contract />
             </Route>
             <Route path="/">
-              <Redirect to="/quickstart" />
+              <Redirect to="/1inch" />
             </Route>
             <Route path="/ethereum-boilerplate">
-              <Redirect to="/quickstart" />
+              <Redirect to="/1inch" />
             </Route>
             <Route path="/nonauthenticated">
               <>Please login using the "Authenticate" button</>
