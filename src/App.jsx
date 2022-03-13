@@ -18,9 +18,10 @@ import { Layout, Tabs } from "antd";
 import "antd/dist/antd.css";
 import NativeBalance from "components/NativeBalance";
 import "./style.css";
-import QuickStart from "components/QuickStart";
+// import QuickStart from "components/QuickStart";
 import Contract from "components/Contract/Contract";
-import Ramper from "components/Ramper";
+import Fiat from "components/Fiat";
+// import Ramper from "components/Ramper";
 import MenuItems from "./components/MenuItems";
 const { Header } = Layout;
 
@@ -88,9 +89,6 @@ const App = ({ isServerInfo }) => {
 
         <div style={styles.content}>
           <Switch>
-            <Route exact path="/quickstart">
-              <QuickStart isServerInfo={isServerInfo} />
-            </Route>
             <Route path="/wallet">
               <Wallet />
             </Route>
@@ -110,8 +108,8 @@ const App = ({ isServerInfo }) => {
             <Route path="/erc20balance">
               <ERC20Balance />
             </Route>
-            <Route path="/onramp">
-              <Ramper />
+            <Route path="/fiat">
+              <Fiat />
             </Route>
             <Route path="/erc20transfers">
               <ERC20Transfers />

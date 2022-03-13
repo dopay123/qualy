@@ -1,7 +1,6 @@
 import { Card, Timeline, Typography } from "antd";
 import React, { useMemo } from "react";
 import { useMoralis } from "react-moralis";
-
 const { Text } = Typography;
 
 const styles = {
@@ -22,7 +21,7 @@ const styles = {
   },
 };
 
-export default function QuickStart({ isServerInfo }) {
+function QuickStart({ isServerInfo }) {
   const { Moralis } = useMoralis();
 
   const isInchDex = useMemo(
