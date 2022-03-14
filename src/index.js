@@ -24,10 +24,7 @@ const Application = () => {
       </MoralisProvider>
     );
   else {
-    return (
-      <div style={{ display: "flex", justifyContent: "center" }}>
-      </div>
-    );
+    return <div style={{ display: "flex", justifyContent: "center" }}></div>;
   }
 };
 

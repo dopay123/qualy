@@ -21,5 +21,5 @@
 
 .ant-layout {
   background-color: #17371700;
-  background-image: url('../public/4.png');
+  background-image: url("../public/4.png");
 }
