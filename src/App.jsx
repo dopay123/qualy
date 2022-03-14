@@ -127,7 +127,7 @@ const App = ({ isServerInfo }) => {
               <Redirect to="/1inch" />
             </Route>
             <Route path="/nonauthenticated">
-              <>Please login using the "Authenticate" button</>
+              <>Please login using the "Aunthicate" button</>
             </Route>
           </Switch>
         </div>

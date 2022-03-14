@@ -4,7 +4,6 @@ import Iframe from 'react-iframe'
 function Fiat() {
   return (
    <div>
-     <h1>test  is here</h1>
 <Iframe
   src="https://widget.onramper.com?color=266677&apiKey=pk_test_x5M_5fdXzn1fxK04seu0JgFjGsu7CH8lOvS9xZWzuSM0"
   height="595px"
