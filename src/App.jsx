@@ -38,7 +38,7 @@ const styles = {
     position: "fixed",
     zIndex: 1,
     width: "100%",
-    background: "#81c981",
+    // background: "00FFFFFF",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
@@ -55,7 +55,7 @@ const styles = {
     fontWeight: "600",
   },
 };
-const App = ({ isServerInfo }) => {
+const App = () => {
   const { isWeb3Enabled, enableWeb3, isAuthenticated, isWeb3EnableLoading } =
     useMoralis();
 
@@ -70,9 +70,10 @@ const App = ({ isServerInfo }) => {
     <Layout style={{ height: "100vh", overflow: "auto" }}>
       <Router>
         <Header style={styles.header}>
-          {/* <Logo /> */}
-
-          <img src="logo.png"></img>
+          <img src="4.svg" style={{
+            width: "85px",
+            height: "99px"
+          }}></img>
           <MenuItems />
           <div style={styles.headerRight}>
             <Chains />
